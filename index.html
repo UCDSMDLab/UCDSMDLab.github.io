@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Structured Materials and Dynamics Lab - School of Civil Engineering - UCD</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+	<div class="container" id="style-3">
+		<!--- # --->
+		
+		<!--- menu --->
+		<div id="header"></div>
+		
+		<!--- slider --->
+		<div id="gallery-container"></div>
+
+		<div class="mt-5 d-none d-lg-block"></div>
+		
+		<!--- labheader --->
+		<div id="lab-header-container"></div>
+
+		<!--- intro --->
+		<p class="or-divider mt-5">About LAB</p>
+		<div id="description-container"></div>
+
+		<!--- Team --->
+		<p class="or-divider mt-5 mb-5">Our Team</p>
+		<div id="team-container"></div>
+
+		<!--- Publications --->
+		<p class="or-divider mt-5 mb-5">Selected Publications</p>
+		<div id="publications" class="row"></div>
+
+		<!--- News --->
+		<p class="or-divider mt-5">Recent News</p>
+		<section id="focus" class="focus-section"></section>
+
+		<!--- footer --->
+		<p class="or-divider mb-0 p-0 mt-5"></p>
+		<div id="footer"></div>
+		
+		<!--- # --->
+	</div>
+
+	<script src="pages/init.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+	
+	<script>
+		const scripts = ['menu', 'slider', 'main', 'footer','news','publications','team'];
+		document.addEventListener("DOMContentLoaded", loadVersionedScripts(scripts));
+	</script>
+	
+</body>
+</html>
