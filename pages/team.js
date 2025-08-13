@@ -4,19 +4,19 @@ const teamMembers = [
   {
     name: "Dr. Muhammad Gulzari",
     role: "Principal Investigator/Lead manager",
-    img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/Muhammad-Photo.JPG",
+    img: "./img/Muhammad-Photo.JPG",
     link: "https://people.ucd.ie/muhammad.gulzari/about",
   },
   {
     name: "Dr. David Ramirez Solana",
     role: "Postdoctoral Researcher",
-    img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/square-David Ramírez Solana.png",
+    img: "./img/square-David Ramírez Solana.png",
 	//grayscale: true,
   },
   {
     name: "Prakhar Parashar",
     role: "Research Assistant",
-    img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/unnamed.jpg",
+    img: "./img/unnamed.jpg",
   },
   
 ];

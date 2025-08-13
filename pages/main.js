@@ -29,7 +29,7 @@ function renderLabHeader(containerId = "lab-header-container") {
         <div class="main-wrapper">
           <h1 class="main-title">Structured Materials and Dynamics Lab</h1>
           <h3 class="new-h3txt main-header text-center mt-4">
-            <img src="https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/ucd-logo-removebg-preview.png" width="64px" />
+            <img src="./img/ucd-logo-removebg-preview.png" width="64px" />
             <span>University College Dublin</span>
           </h3>
         </div>

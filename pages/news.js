@@ -1,20 +1,20 @@
 const newsItems = [
   {
     title: "Invitation to contribute to new Collection with JoVE",
-    image: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/slide3.jpg",
+    image: "./img/slide3.jpg",
     description: `#GuestEditor Invitation to Contribute<br/>
     To date very few journals publish video articles in our field, despite this type of article being of paramount importance for sharing techniques and improving their replicability.`,
     link: "news.html?title=Invitation%20to%20contribute%20to%20new%20Collection%20with%20JoVE"
   },
   {
     title: "Inspiring the Next Generation of Civil Engineers!",
-    image: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/slide1.jpg",
+    image: "./img/slide1.jpg",
     description: `We had the pleasure of hosting TY students for "Engineering Your Week," where we introduced them to the exciting world of Civil Engineering!`,
     link: "news.html?title=Inspiring%20the%20Next%20Generation%20of%20Civil%20Engineers"
   },
   {
     title: "UK Metamaterials Network Acoustic Metamaterial conference",
-    image: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/slide4.jpg",
+    image: "./img/slide4.jpg",
     description: `What an amazing week ending. Just returned from Exeter UK after attending UK Metamaterials Network Acoustic Metamaterial conference.`,
     link: "news.html?title=UK%20Metamaterials%20Network%20Acoustic%20Metamaterial%20conference"
   }

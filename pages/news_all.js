@@ -1,7 +1,7 @@
 const cardsData = [
     {
         title: "Invitation to Contribute to new Collection with JoVE",
-        image: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/slide3.jpg",
+        image: "./img/slide3.jpg",
         category: "Editorial News",
         categoryLink: "#",
         content: `#GuestEditor Invitation to Contribute
@@ -16,7 +16,7 @@ const cardsData = [
     },
     {
         title: "Inspiring the Next Generation of Civil Engineers!",
-        image: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/slide1.jpg",
+        image: "./img/slide1.jpg",
         category: null,
         categoryLink: "#",
         content: `We had the pleasure of hosting TY students for "Engineering Your Week," where we introduced them to the exciting world of Civil Engineering!`,
@@ -26,7 +26,7 @@ const cardsData = [
     },
     {
         title: "UK Metamaterials Network Acoustic Metamaterial conference",
-        image: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/slide4.jpg",
+        image: "./img/slide4.jpg",
         category: null,
         categoryLink: null,
         content: `What an amazing week ending. Just returned from Exeter UK after attending UK Metamaterials Network Acoustic Metamaterial conference.`,
@@ -119,7 +119,7 @@ function renderCardsSection(cardsData) {
 const params = new URLSearchParams(window.location.search);
 const newsTitle = params.get("title");
 
-fetch("https://structured-materials-and-dynamics-lab.storage.c2.liara.space/pages/news_data.json")
+fetch("./pages/news_data.json")
 .then(res => res.json())
 .then(data => {
 	const news = data.find(n => n.title === newsTitle);

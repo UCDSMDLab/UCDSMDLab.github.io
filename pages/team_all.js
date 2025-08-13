@@ -6,7 +6,7 @@ const teamData = {
       {
         name: "Dr. Muhammad  Gulzari",
         title: "Principal Investigator",
-        img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/Muhammad-Photo.JPG",
+        img: "./img/Muhammad-Photo.JPG",
         link: "https://people.ucd.ie/muhammad.gulzari/about",
         grayscale: false
       }
@@ -15,13 +15,13 @@ const teamData = {
       {
         name: "Dr. David Ramirez Solana",
         title: "Postdoctoral Researcher",
-        img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/square-David Ramírez Solana.png",
+        img: "./img/square-David Ramírez Solana.png",
         grayscale: false
       },
       {
         name: "Prakhar Parashar",
         title: "Research Assistant",
-        img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/unnamed.jpg",
+        img: "./img/unnamed.jpg",
         grayscale: false
       },
      
@@ -31,19 +31,19 @@ const teamData = {
     {
         name: "Fiona O'Toole",
         title: "MSc Student",
-        img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/prof.svg",
+        img: "./img/prof.svg",
         grayscale: true
       },
       {
         name: "Jeanne Gasc",
         title: "MSc Student",
-        img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/prof.svg",
+        img: "./img/prof.svg",
         grayscale: true
       },
       {
         name: "Supharoek Sornsomrit",
         title: "MSc Student",
-        img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/student.png",
+        img: "./img/student.png",
         grayscale: true
       }
   ]

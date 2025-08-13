@@ -3,14 +3,14 @@ const footerLinks = [
     name: "ResearchGate",
     href: "https://www.researchgate.net/profile/Muhammad-4",
     type: "image",
-    icon: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/ResearchGate_icon_SVG.svg",
+    icon: "./img/ResearchGate_icon_SVG.svg",
     class: "btn btn-light",
   },
   {
     name: "Google Scholar",
     href: "https://scholar.google.com/citations?user=WWV6C8UAAAAJ&hl=en",
     type: "image",
-    icon: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/Google_Scholar_logo.svg",
+    icon: "./img/Google_Scholar_logo.svg",
     class: "btn btn-light",
   },
   {

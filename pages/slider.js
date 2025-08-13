@@ -1,22 +1,22 @@
 const gallerySlides = [
   {
-    img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/slide1.jpg",
+    img: "./img/slide1.jpg",
     caption: "Engineering Your Week!",
     link: "news.html?title=Inspiring%20the%20Next%20Generation%20of%20Civil%20Engineers"
   },
   {
-    img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/slide2.jpg",
+    img: "./img/slide2.jpg",
     caption: "A New Postdoc Opportunities is Available!",
 	link: "vag.html",
   },
   {
-    img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/slide3.jpg",
+    img: "./img/slide3.jpg",
     caption: "A New Collection with JoVE!",
     link: "news.html?title=Invitation%20to%20contribute%20to%20new%20Collection%20with%20JoVE"
 	
   },
   {
-    img: "https://structured-materials-and-dynamics-lab.storage.c2.liara.space/img/slide4.jpg",
+    img: "./img/slide4.jpg",
     caption: "UK Acoustic Metamaterial conference",
     link: "news.html?title=UK%20Metamaterials%20Network%20Acoustic%20Metamaterial%20conference"
   },
