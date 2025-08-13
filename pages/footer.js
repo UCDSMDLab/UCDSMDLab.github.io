@@ -78,9 +78,20 @@ function renderFooter() {
       </div>
       ${textLines}
     </footer>
+	
+	<div class="loader">
+	  <div class="loader-inner"></div>
+	</div>
   `;
 }
 
 runImmediatelyOrOnDOMReady(function () {
     renderFooter(); 
+	setTimeout(function() {
+		const loader = document.querySelector('.loader');
+		loader.style.opacity = '0';
+		loader.style.visibility = 'hidden';
+		// Optional: remove the loader from DOM completely
+		setTimeout(() => loader.remove(), 500); // wait for fade out to complete
+	}, 5000); // 5000 milliseconds = 5 seconds
 });
