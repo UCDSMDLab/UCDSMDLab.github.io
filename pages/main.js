@@ -3,9 +3,6 @@ function renderGroupDescription(containerId = "description-container") {
   if (!container) return;
 
   container.innerHTML = `
-  	<div class="loader">
-	  <div class="loader-inner"></div>
-	</div>
     <div class="mt-2 mb-2">
       <div class="w-100">
         <div class="d-block p-3 w-100">
