@@ -89,5 +89,5 @@ runImmediatelyOrOnDOMReady(function () {
 		loader.style.visibility = 'hidden';
 		// Optional: remove the loader from DOM completely
 		setTimeout(() => loader.remove(), 500); // wait for fade out to complete
-	}, 5000); // 5000 milliseconds = 5 seconds
+	}, 3000); // 5000 milliseconds = 5 seconds
 });
