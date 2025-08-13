@@ -1,14 +1,14 @@
 {
-  "menu": "1.0.1",
-  "slider": "1.0.1",
-  "main": "1.0.1",
-  "footer": "1.0.1",
-  "news": "1.0.1",
-  "team": "1.0.1",
-  "publications": "1.0.1",
+  "menu": "1.0.2",
+  "slider": "1.0.2",
+  "main": "1.0.2",
+  "footer": "1.0.2",
+  "news": "1.0.2",
+  "team": "1.0.2",
+  "publications": "1.0.2",
   "publications_all": "1.0.2",
   "team_all": "1.0.2",
-  "news_all": "1.1.1",
-  "vag": "1.0.2",
-  "contact": "1.0.1"
+  "news_all": "1.1.2",
+  "vag": "1.0.3",
+  "contact": "1.0.2"
 }

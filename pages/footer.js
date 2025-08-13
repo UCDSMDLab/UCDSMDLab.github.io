@@ -78,10 +78,6 @@ function renderFooter() {
       </div>
       ${textLines}
     </footer>
-	
-	<div class="loader">
-	  <div class="loader-inner"></div>
-	</div>
   `;
 }
 
