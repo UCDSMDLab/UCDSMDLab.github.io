@@ -14,7 +14,7 @@ async function loadVersionedScripts(scripts) {
 	  scripts.forEach(name => {
 		const version = versions[name] || 'latest';
 		const script = document.createElement('script');
-		script.src = `.pages/${name}.js?v=${version}`;
+		script.src = `pages/${name}.js?v=${version}`;
 		document.head.appendChild(script);
 	  });
 	} catch (err) {
