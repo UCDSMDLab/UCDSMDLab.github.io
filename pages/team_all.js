@@ -24,7 +24,12 @@ const teamData = {
         img: "./img/unnamed.jpg",
         grayscale: false
       },
-     
+     {
+        name: "Zeenia Haroon",
+        title: "Research Assistant",
+        img: "./img/prof.svg",
+        grayscale: false
+      },
     ]
   },
   alumni: [
