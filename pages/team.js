@@ -33,8 +33,8 @@ function renderTeam(containerId = "team-container", members = teamMembers) {
   // Group by rows (first 1, then 2, then 4 in this example)
   const rows = [
     members.slice(0, 1),
-    members.slice(1, 3),
-    members.slice(3)
+    members.slice(1, 4),
+    members.slice(4)
   ];
 
   const html = rows
