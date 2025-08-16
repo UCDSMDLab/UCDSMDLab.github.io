@@ -21,7 +21,7 @@ const teamMembers = [
 	
   {
     name: "Zeenia Haroon",
-    title: "Research Assistant",
+    role: "Research Assistant",
     img: "./img/prof.svg",
   },
 ];
