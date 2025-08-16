@@ -18,7 +18,12 @@ const teamMembers = [
     role: "Research Assistant",
     img: "./img/unnamed.jpg",
   },
-  
+	
+  {
+    name: "Zeenia Haroon",
+    title: "Research Assistant",
+    img: "./img/prof.svg",
+  },
 ];
 
 function renderTeam(containerId = "team-container", members = teamMembers) {
