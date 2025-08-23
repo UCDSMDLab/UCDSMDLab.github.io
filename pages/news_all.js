@@ -119,7 +119,7 @@ function renderCardsSection(cardsData) {
 const params = new URLSearchParams(window.location.search);
 const newsTitle = params.get("title");
 
-fetch("./pages/news_data.json")
+fetch("./pages/news_data.json?ts="+Date.now())
 .then(res => res.json())
 .then(data => {
 	const news = data.find(n => n.title === newsTitle);
